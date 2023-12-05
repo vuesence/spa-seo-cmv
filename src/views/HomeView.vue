@@ -16,7 +16,7 @@ onMounted(() => {
         asyncData1.value = "asyncData1 some tree calls fire";
         setTimeout(() => {          
           asyncData2.value = "asyncData2 cat beats lion and mouse cries";
-        }, 1000);
+        }, 5000);
       })
 });
 
